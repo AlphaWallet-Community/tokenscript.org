@@ -1,0 +1,164 @@
+html, body {
+  height:100%;
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: ETBembo;
+  src: url("../../fonts/ETBembo-RomanLF.ttf"); }
+
+
+body {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    font-family: ETBembo;
+    opacity: 0.95;
+}
+#dialog {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 15%;
+  color: #fff;
+}
+
+#hey {
+  color: #FFF8E7;
+  font-weight: bold;
+  font-size: 5em;
+  font-family: Helvetica;
+}
+
+.type-it{
+  color: #FFF8E7;
+}
+
+#i {
+  font-size: 2em;
+  margin-top: 75px;
+  color: #FFF8E7;
+}
+
+#p2 {
+  margin-top: 20px;
+  font-family: ETBembo;
+  width: 100%;
+}
+
+.seo-elements {
+  display: none !important;
+}
+
+a {
+  color: #FFF8E7;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #F9E79F;
+  text-decoration: underline;
+  text-decoration-style:dotted;
+}
+
+#links {
+  /*position: absolute;
+  bottom: 0px;*/
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
+#links ul a {
+  /* color: #F9E79F; */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  display: inline;
+  margin-left: 30px;
+}
+
+#links li {
+    display: inline;
+    padding-right: 30px;
+}
+
+.small {
+    font-size: 20px;
+}
+#button {
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  padding: 15px 20px;
+  border-radius: 999px;
+  color: #fff;
+}
+#button:hover {
+  text-decoration: none !important;
+  background: #F9E79F;
+  color: #021e42;
+}
+
+
+@media screen and (max-width: 1130px) {
+    body {
+        /*background-size: 50% auto, 100%;
+        background-color: #0d426b;
+        background-position: bottom left;*/
+    }
+}
+
+@media screen and (width: 1366px) and (height: 1024px) {
+    body {
+        /*background-size: 50% auto, 100%;
+        background-color: #0d426b;
+        background-position: bottom left;*/
+    }
+}
+@media screen and (height: 1366px) and (width: 1024px) {
+  #dialog {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 844px) {
+    #hey {
+      font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  #links ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .extensive {
+    display: none;
+  }
+  .ti-container {
+    font-size: 1em !important;
+  }
+  #hey {
+    font-size: 2em;
+  }
+  #links{
+    position: fixed;
+    bottom: 40px;
+  }
+  #i{
+    font-size: 1.5em;
+  }
+  #dialog{
+    left: 10% !important;
+    right: 10% !important;
+  }
+}
